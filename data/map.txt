@@ -2182,11 +2182,14 @@ system "Al Dhanab"
 	trade Metal 262
 	trade Plastic 317
 	fleet "Small Core Merchants" 400
-	fleet "Large Core Merchants" 400
+	fleet "Large Core Merchants" 500
+	fleet "Cartel" 1600
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 800
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 6000
 	fleet "Human Miners" 2000
 	object
 		sprite star/g0
@@ -2352,7 +2355,7 @@ system Albireo
 
 system Alcyone
 	pos -80 -144
-	government Pirate
+	government Buccaneer
 	habitable 270
 	belt 1438
 	link Zaurak
@@ -2374,9 +2377,11 @@ system Alcyone
 	trade Medical 705
 	trade Metal 249
 	trade Plastic 439
-	fleet "Small Core Pirates" 400
-	fleet "Large Core Pirates" 600
+	fleet "Small Core Pirates" 500
+	fleet "Large Core Pirates" 800
 	fleet "Large Syndicate" 1200
+	fleet "small Buccaneers" 1600
+	fleet "large Buccaneers" 2400
 	object
 		sprite star/m4
 		distance 45.5
@@ -2485,10 +2490,13 @@ system Alderamin
 	trade Plastic 373
 	fleet "Small Core Merchants" 2000
 	fleet "Large Core Merchants" 3200
+	fleet "Cartel" 1200
 	fleet "Small Syndicate" 800
 	fleet "Large Syndicate" 800
-	fleet "Small Core Pirates" 1000
-	fleet "Large Core Pirates" 1200
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 2400
+	fleet "small Buccaneers" 2000
+	fleet "large Buccaneers" 2400
 	object
 		sprite star/g0
 		distance 36.6569
@@ -2584,7 +2592,7 @@ system Aldhibain
 
 system Algenib
 	pos -118 341
-	government Pirate
+	government Buccaneer
 	habitable 455.625
 	belt 1273
 	link Gienah
@@ -2599,9 +2607,12 @@ system Algenib
 	trade Medical 607
 	trade Metal 293
 	trade Plastic 423
-	fleet "Small Core Pirates" 300
-	fleet "Large Core Pirates" 500
+	fleet "Small Core Pirates" 600
+	fleet "Large Core Pirates" 1000
 	fleet "Large Syndicate" 800
+	fleet "small Buccaneers" 600
+	fleet "large Buccaneers" 1000
+	fleet "Cartel" 600
 	object
 		sprite star/k0-old
 		period 10
@@ -2726,9 +2737,12 @@ system Algol
 	trade Plastic 309
 	fleet "Small Core Merchants" 1600
 	fleet "Large Core Merchants" 4000
-	fleet "Small Core Pirates" 1800
-	fleet "Large Core Pirates" 5000
+	fleet "Small Core Pirates" 2700
+	fleet "Large Core Pirates" 10000
 	fleet "Small Syndicate" 2400
+	fleet "small Buccaneers" 5400
+	fleet "large Buccaneers" 10000
+	fleet "Cartel" 8000
 	object
 		sprite star/k5-old
 		distance 42.7246
@@ -2860,8 +2874,9 @@ system Alheka
 	fleet "Small Republic" 1200
 	fleet "Large Republic" 4000
 	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 2000
+	fleet "Large Northern Pirates" 4000
 	fleet "Human Miners" 3000
+	fleet "Privateers" 4000
 	object
 		sprite star/g0
 		period 10
@@ -3073,7 +3088,7 @@ system Alkaid
 
 system Almaaz
 	pos -349 -538
-	government Pirate
+	government Mesans
 	habitable 1080
 	belt 1873
 	link Hatysa
@@ -3097,8 +3112,12 @@ system Almaaz
 	trade Medical 814
 	trade Metal 523
 	trade Plastic 308
-	fleet "Small Northern Pirates" 500
-	fleet "Large Northern Pirates" 600
+	fleet "Small Northern Pirates" 2000
+	fleet "East Mesans" 500
+	fleet "West Mesans" 500
+	fleet "Zenithites" 1000
+	fleet "Large Northern Pirates" 4000
+	fleet "Privateers" 3000
 	fleet "Large Republic" 4000
 	object
 		sprite star/g0
@@ -3118,7 +3137,7 @@ system Almaaz
 
 system Almach
 	pos -7 232
-	government Pirate
+	government Buccaneer
 	habitable 320
 	belt 1914
 	link Schedar
@@ -3141,10 +3160,13 @@ system Almach
 	trade Medical 746
 	trade Metal 338
 	trade Plastic 266
-	fleet "Small Core Pirates" 500
-	fleet "Large Core Pirates" 1400
+	fleet "Small Core Pirates" 1000
+	fleet "Large Core Pirates" 2800
 	fleet "Large Syndicate" 6000
 	fleet "Korath Raid" 20000
+	fleet "small Buccaneers" 1000
+	fleet "large Buccaneers" 2800
+	fleet "Cartel" 3000
 	object
 		sprite star/k5
 		period 10
@@ -3203,11 +3225,14 @@ system Alnair
 	trade Metal 241
 	trade Plastic 467
 	fleet "Small Core Merchants" 2000
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 4000
+	fleet "Small Core Pirates" 6000
+	fleet "Large Core Pirates" 8000
 	fleet "Small Syndicate" 4000
 	fleet "Large Syndicate" 6000
 	fleet "Human Miners" 2000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 8000
+	fleet "Cartel" 4000
 	object
 		sprite star/m4
 		period 10
@@ -3307,7 +3332,7 @@ system Alnasl
 
 system Alnilam
 	pos -487 -513
-	government Pirate
+	government Zenithite
 	habitable 1715
 	belt 1099
 	link Hatysa
@@ -3330,8 +3355,12 @@ system Alnilam
 	trade Medical 880
 	trade Metal 520
 	trade Plastic 334
-	fleet "Small Northern Pirates" 500
-	fleet "Large Northern Pirates" 700
+	fleet "Small Northern Pirates" 1000
+	fleet "East Mesans" 2000
+	fleet "West Mesans" 2000
+	fleet "Zenithites" 500
+	fleet "Large Northern Pirates" 2000
+	fleet "Privateers" 1500
 	fleet "Large Republic" 10000
 	object
 		sprite star/f5
@@ -3405,8 +3434,12 @@ system Alnitak
 	trade Medical 809
 	trade Metal 318
 	trade Plastic 452
-	fleet "Small Northern Pirates" 3000
-	fleet "Large Northern Pirates" 5000
+	fleet "Small Northern Pirates" 12000
+	fleet "East Mesans" 12000
+	fleet "West Mesans" 12000
+	fleet "Zenithites" 12000
+	fleet "Large Northern Pirates" 10000
+	fleet "Privateers" 10000
 	fleet "Small Republic" 2000
 	fleet "Large Republic" 4000
 	object
@@ -3658,12 +3691,15 @@ system "Alpha Hydri"
 	trade Metal 324
 	trade Plastic 390
 	fleet "Small Core Merchants" 900
-	fleet "Large Core Merchants" 3000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 6000
+	fleet "Large Core Merchants" 4000
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 7000
 	fleet "Small Syndicate" 4000
 	fleet "Large Syndicate" 9000
 	fleet "Korath Raid" 40000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 21000
+	fleet "Cartel" 12000
 	object
 		sprite star/g0
 		distance 24.6857
@@ -3834,8 +3870,11 @@ system Alpheratz
 	fleet "Large Core Merchants" 600
 	fleet "Small Syndicate" 800
 	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 1200
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 2400
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 2400
+	fleet "large Buccaneers" 6000
+	fleet "Cartel" 12000
 	object
 		sprite star/g5
 		distance 48.2767
@@ -4089,7 +4128,8 @@ system Ankaa
 	fleet "Small Core Merchants" 600
 	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 900
-	fleet "Large Core Pirates" 4000
+	fleet "Large Core Pirates" 5000
+	fleet "large Buccaneers" 20000
 	object
 		sprite star/g5
 		period 10
@@ -4485,7 +4525,7 @@ system Arculus
 
 system Arneb
 	pos -523 -580
-	government Pirate
+	government Privateer
 	habitable 1715
 	belt 1947
 	link Hatysa
@@ -4503,8 +4543,12 @@ system Arneb
 	trade Medical 890
 	trade Metal 566
 	trade Plastic 358
-	fleet "Small Northern Pirates" 400
-	fleet "Large Northern Pirates" 500
+	fleet "Small Northern Pirates" 3000
+	fleet "East Mesans" 2500
+	fleet "West Mesans" 2500
+	fleet "Zenithites" 2000
+	fleet "Large Northern Pirates" 3500
+	fleet "Privateers" 400
 	fleet "Large Republic" 15000
 	object
 		sprite star/f5
@@ -4993,10 +5037,11 @@ system Bellatrix
 	trade Metal 422
 	trade Plastic 274
 	fleet "Small Core Merchants" 800
-	fleet "Large Core Merchants" 1500
+	fleet "Large Core Merchants" 1200
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 3000
+	fleet "Small Core Pirates" 6000
+	fleet "small Buccaneers" 6000
 	object
 		sprite star/k0
 		distance 34.556
@@ -5316,8 +5361,9 @@ system Betelgeuse
 	fleet "Large Northern Merchants" 800
 	fleet "Small Republic" 2000
 	fleet "Large Republic" 3000
-	fleet "Large Northern Pirates" 4000
+	fleet "Large Northern Pirates" 8000
 	fleet "Human Miners" 3000
+	fleet "Privateers" 8000
 	object
 		sprite star/g0
 		period 10
@@ -6164,11 +6210,17 @@ system Cardax
 	trade Plastic 424
 	fleet "Small Northern Merchants" 1200
 	fleet "Large Northern Merchants" 3000
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 9000
 	fleet "Small Core Pirates" 3000
 	fleet "Small Republic" 2000
 	fleet "Large Republic" 5000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 9000
+	fleet "Privateers" 9000
+	fleet "East Mesans" 6000
+	fleet "West Mesans" 6000
+	fleet "Zenithites" 3000
 	object
 		sprite star/g0
 		distance 45.4545
@@ -7221,7 +7273,7 @@ system Dabih
 
 system Danoa
 	pos -239 -321
-	government Republic
+	government Uninhabited
 	habitable 135
 	belt 1689
 	link Sumar
@@ -7246,10 +7298,14 @@ system Danoa
 	trade Metal 223
 	trade Plastic 396
 	fleet "Small Northern Merchants" 15000
-	fleet "Small Northern Pirates" 5000
-	fleet "Large Northern Pirates" 16000
-	fleet "Large Republic" 30000
+	fleet "Small Northern Pirates" 15000
+	fleet "Large Northern Pirates" 30000
+	fleet "Quarg" 32000
 	fleet "Human Miners" 1600
+	fleet "Privateers" 32000
+	fleet "East Mesans" 30000
+	fleet "West Mesans" 30000
+	fleet "Zenithites" 15000
 	object
 		sprite star/m4
 		period 10
@@ -7522,10 +7578,12 @@ system "Delta Capricorni"
 	trade Metal 269
 	trade Plastic 292
 	fleet "Small Core Merchants" 700
-	fleet "Large Core Merchants" 800
+	fleet "Large Core Merchants" 900
 	fleet "Small Syndicate" 2000
-	fleet "Small Core Pirates" 4000
+	fleet "Small Core Pirates" 5000
 	fleet "Human Miners" 3000
+	fleet "small Buccaneers" 20000
+	fleet "Cartel" 7200
 	object
 		sprite star/g5
 		distance 29.7539
@@ -8245,10 +8303,12 @@ system Durax
 	trade Medical 791
 	trade Metal 329
 	trade Plastic 372
-	fleet "Small Core Pirates" 600
-	fleet "Large Core Pirates" 900
+	fleet "Small Core Pirates" 1200
+	fleet "Large Core Pirates" 1800
 	fleet "Large Syndicate" 2500
 	fleet "Korath Raid" 5000
+	fleet "small Buccaneers" 1200
+	fleet "large Buccaneers" 1800
 	object
 		sprite star/g0-old
 		period 10
@@ -10751,10 +10811,12 @@ system "Gamma Cassiopeiae"
 	trade Medical 694
 	trade Metal 261
 	trade Plastic 284
-	fleet "Small Core Pirates" 1000
-	fleet "Large Core Pirates" 2000
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 4000
 	fleet "Large Syndicate" 5000
 	fleet "Human Miners" 2000
+	fleet "small Buccaneers" 2000
+	fleet "large Buccaneers" 4000
 	object
 		sprite star/k0-old
 		period 10
@@ -10905,7 +10967,7 @@ system Gerenus
 
 system Gienah
 	pos -176 354
-	government Pirate
+	government Cartel
 	habitable 534.375
 	belt 1939
 	link Persian
@@ -10929,9 +10991,13 @@ system Gienah
 	trade Medical 600
 	trade Metal 245
 	trade Plastic 460
-	fleet "Small Core Pirates" 500
-	fleet "Large Core Pirates" 800
+	fleet "Cartel" 500
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 20000
 	fleet "Large Syndicate" 5000
+	fleet "small Buccaneers" 900
+	fleet "large Buccaneers" 10000
+	fleet "Cartel" 600
 	object
 		sprite star/k5-old
 		distance 31.893
@@ -11329,10 +11395,14 @@ system Gorvi
 	trade Medical 882
 	trade Metal 514
 	trade Plastic 455
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 1000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 2000
 	fleet "Large Republic" 4000
-	fleet "Small Northern Merchants" 8000
+	fleet "Human Miners" 8000
+	fleet "Privateers" 2000
+	fleet "East Mesans" 6000
+	fleet "West Mesans" 6000
+	fleet "Zenithites" 3000
 	object
 		sprite star/wr
 		period 100
@@ -11568,10 +11638,13 @@ system Hamal
 	trade Metal 332
 	trade Plastic 404
 	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 1000
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 8000
+	fleet "Large Core Merchants" 1100
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 9000
 	fleet "Small Syndicate" 4000
+	fleet "small Buccaneers" 12000
+	fleet "large Buccaneers" 72000
+	fleet "Cartel" 10000
 	object
 		sprite star/g0
 		period 10
@@ -11683,10 +11756,14 @@ system Hassaleh
 	trade Metal 265
 	trade Plastic 462
 	fleet "Small Northern Merchants" 9000
-	fleet "Small Northern Pirates" 6000
-	fleet "Large Northern Pirates" 20000
+	fleet "Small Northern Pirates" 18000
+	fleet "Large Northern Pirates" 40000
 	fleet "Large Republic" 20000
 	fleet "Human Miners" 2000
+	fleet "Privateers" 40000
+	fleet "East Mesans" 36000
+	fleet "West Mesans" 36000
+	fleet "Zenithites" 18000
 	object
 		sprite star/k0
 		distance 36.1558
@@ -11739,9 +11816,13 @@ system Hatysa
 	trade Medical 863
 	trade Metal 546
 	trade Plastic 330
-	fleet "Small Northern Pirates" 600
-	fleet "Large Northern Pirates" 1000
+	fleet "Small Northern Pirates" 1800
+	fleet "Large Northern Pirates" 2000
 	fleet "Large Republic" 15000
+	fleet "Privateers" 2000
+	fleet "East Mesans" 3600
+	fleet "West Mesans" 3600
+	fleet "Zenithites" 1800
 	object
 		sprite star/k0
 		distance 13.6124
@@ -15349,11 +15430,14 @@ system Matar
 	trade Metal 209
 	trade Plastic 407
 	fleet "Small Core Merchants" 2000
-	fleet "Large Core Merchants" 2500
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 4000
+	fleet "Large Core Merchants" 5000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 8000
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 8000
+	fleet "Cartel" 5000
 	object
 		sprite star/k0
 		period 10
@@ -15927,8 +16011,9 @@ system Menkar
 	fleet "Large Core Merchants" 1000
 	fleet "Small Syndicate" 1500
 	fleet "Large Syndicate" 2000
-	fleet "Large Core Pirates" 4000
+	fleet "Large Core Pirates" 8000
 	fleet "Human Miners" 2000
+	fleet "large Buccaneers" 8000
 	object
 		sprite star/k0
 		period 10
@@ -16450,11 +16535,15 @@ system Mintaka
 	trade Medical 826
 	trade Metal 432
 	trade Plastic 370
-	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 2000
+	fleet "Small Northern Pirates" 6000
+	fleet "Large Northern Pirates" 4000
 	fleet "Large Republic" 5000
 	fleet "Small Northern Merchants" 4000
 	fleet "Human Miners" 2000
+	fleet "Privateers" 4000
+	fleet "East Mesans" 18000
+	fleet "West Mesans" 18000
+	fleet "Zenithites" 6000
 	object
 		sprite star/k0
 		distance 34.4496
@@ -16513,11 +16602,13 @@ system Mirach
 	trade Metal 267
 	trade Plastic 299
 	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 1200
-	fleet "Small Core Pirates" 4000
+	fleet "Large Core Merchants" 1500
+	fleet "Small Core Pirates" 8000
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 5000
 	fleet "Human Miners" 3000
+	fleet "small Buccaneers" 8000
+	fleet "Cartel" 4800
 	object
 		sprite star/m0
 		distance 21.1004
@@ -16749,8 +16840,12 @@ system Moktar
 	fleet "Large Core Merchants" 2000
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 4000
-	fleet "Small Core Pirates" 2000
-	fleet "Small Northern Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Small Northern Pirates" 4000
+	fleet "East Mesans" 48000
+	fleet "West Mesans" 48000
+	fleet "Zenithites" 24000
+	fleet "small Buccaneers" 4000
 	object
 		sprite star/k5
 		distance 29.0769
@@ -17439,9 +17534,11 @@ system Oblate
 	trade Medical 656
 	trade Metal 328
 	trade Plastic 399
-	fleet "Small Core Pirates" 600
-	fleet "Large Core Pirates" 1000
+	fleet "Small Core Pirates" 1200
+	fleet "Large Core Pirates" 2000
 	fleet "Large Syndicate" 3000
+	fleet "small Buccaneers" 1200
+	fleet "large Buccaneers" 2000
 	object
 		sprite star/giant
 		period 10
@@ -18193,9 +18290,12 @@ system Persian
 	trade Plastic 502
 	fleet "Small Syndicate" 800
 	fleet "Large Syndicate" 1200
-	fleet "Small Core Pirates" 600
-	fleet "Large Core Pirates" 2000
+	fleet "Small Core Pirates" 1200
+	fleet "Large Core Pirates" 12000
 	fleet "Human Miners" 3000
+	fleet "small Buccaneers" 1200
+	fleet "large Buccaneers" 12000
+	fleet "Cartel" 3000
 	object
 		sprite star/f5-old
 		distance 27.8124
@@ -18636,9 +18736,11 @@ system Polaris
 	fleet "Small Core Merchants" 600
 	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 1000
-	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 1500
+	fleet "Large Syndicate" 3000
+	fleet "Small Core Pirates" 3000
 	fleet "Korath Raid" 50000
+	fleet "small Buccaneers" 3000
+	fleet "Cartel" 6000
 	object
 		sprite star/k5
 		period 10
@@ -19449,7 +19551,7 @@ system Queri
 
 system Rajak
 	pos -270 -236
-	government Republic
+	government Uninhabited
 	habitable 78.125
 	belt 1410
 	link Sumar
@@ -19471,8 +19573,13 @@ system Rajak
 	trade Medical 672
 	trade Metal 341
 	trade Plastic 415
-	fleet "Small Northern Pirates" 4000
-	fleet "Large Northern Pirates" 10000
+	fleet "Small Northern Merchants" 30000
+	fleet "Small Northern Pirates" 12000
+	fleet "Large Northern Pirates" 30000
+	fleet "Privateers" 30000
+	fleet "East Mesans" 24000
+	fleet "West Mesans" 24000
+	fleet "Zenithites" 12000
 	object
 		sprite star/m8
 		period 10
@@ -19983,9 +20090,13 @@ system Rigel
 	fleet "Large Northern Merchants" 4000
 	fleet "Small Republic" 3000
 	fleet "Large Republic" 5000
-	fleet "Small Northern Pirates" 3000
-	fleet "Large Northern Pirates" 5000
+	fleet "Small Northern Pirates" 9000
+	fleet "Large Northern Pirates" 10000
 	fleet "Human Miners" 2000
+	fleet "Privateers" 10000
+	fleet "East Mesans" 18000
+	fleet "West Mesans" 18000
+	fleet "Zenithites" 9000
 	object
 		sprite star/g0
 		period 10
@@ -20127,11 +20238,14 @@ system Ruchbah
 	trade Metal 334
 	trade Plastic 353
 	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
+	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 6000
+	fleet "Cartel" 4200
 	object
 		sprite star/f0
 		period 10
@@ -20555,10 +20669,14 @@ system Saiph
 	trade Plastic 473
 	fleet "Small Northern Merchants" 1200
 	fleet "Large Northern Merchants" 2000
-	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 4000
 	fleet "Small Republic" 4000
 	fleet "Large Republic" 7000
+	fleet "Privateers" 12000
+	fleet "East Mesans" 24000
+	fleet "West Mesans" 24000
+	fleet "Zenithites" 12000
 	object
 		sprite star/k5
 		period 10
@@ -20823,11 +20941,14 @@ system Scheat
 	trade Metal 259
 	trade Plastic 312
 	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
+	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 5000
+	fleet "Small Core Pirates" 6000
+	fleet "Large Core Pirates" 10000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 10000
+	fleet "Cartel" 4200
 	object
 		sprite star/g5
 		period 10
@@ -20882,11 +21003,14 @@ system Schedar
 	trade Metal 325
 	trade Plastic 279
 	fleet "Small Core Merchants" 900
-	fleet "Large Core Merchants" 1000
+	fleet "Large Core Merchants" 1100
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 4000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 6000
+	fleet "Cartel" 10000
 	object
 		sprite star/g0
 		period 10
@@ -21347,9 +21471,11 @@ system Sheratan
 	trade Plastic 355
 	fleet "Small Core Merchants" 1500
 	fleet "Large Core Merchants" 1800
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 5000
+	fleet "Small Core Pirates" 6000
+	fleet "Large Core Pirates" 10000
 	fleet "Korath Raid" 30000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 10000
 	object
 		sprite star/f5
 		distance 21.0713
@@ -22728,7 +22854,7 @@ system Suhail
 
 system Sumar
 	pos -236 -273
-	government Republic
+	government Uninhabited
 	habitable 2560
 	belt 1778
 	link Cardax
@@ -22746,9 +22872,13 @@ system Sumar
 	trade Medical 713
 	trade Metal 306
 	trade Plastic 408
-	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 6000
-	fleet "Large Republic" 30000
+	fleet "Small Northern Pirates" 6000
+	fleet "Large Northern Pirates" 12000
+	fleet "Quarg" 30000
+	fleet "Privateers" 12000
+	fleet "East Mesans" 12000
+	fleet "West Mesans" 12000
+	fleet "Zenithites" 6000
 	object
 		sprite star/f0
 		period 10
@@ -23393,10 +23523,14 @@ system Tortor
 	trade Medical 845
 	trade Metal 493
 	trade Plastic 431
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 1000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 3000
 	fleet "Large Republic" 6000
-	fleet "Small Northern Merchants" 6000
+	fleet "Human Miners" 6000
+	fleet "Privateers" 4000
+	fleet "East Mesans" 6000
+	fleet "West Mesans" 6000
+	fleet "Zenithites" 3000
 	object
 		sprite star/k0
 		period 10
@@ -23714,8 +23848,12 @@ system Unagi
 	trade Medical 797
 	trade Metal 479
 	trade Plastic 364
-	fleet "Small Northern Pirates" 1500
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 6000
+	fleet "Privateers" 6000
+	fleet "East Mesans" 7500
+	fleet "West Mesans" 7500
+	fleet "Zenithites" 5000
 	object
 		sprite star/k5
 		period 10
@@ -23997,10 +24135,14 @@ system Volax
 	trade Plastic 423
 	fleet "Small Northern Merchants" 1500
 	fleet "Large Northern Merchants" 3000
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 1100
+	fleet "Large Northern Pirates" 4000
 	fleet "Small Republic" 5000
 	fleet "Large Republic" 9000
+	fleet "Privateers" 12000
+	fleet "East Mesans" 40000
+	fleet "West Mesans" 40000
+	fleet "Zenithites" 20000
 	object
 		sprite star/f5
 		period 10
@@ -24653,9 +24795,11 @@ system Zaurak
 	fleet "Large Core Merchants" 1000
 	fleet "Small Syndicate" 1600
 	fleet "Large Syndicate" 2500
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 4000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 8000
 	fleet "Human Miners" 2000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 8000
 	object
 		sprite star/g5
 		period 10
@@ -25415,7 +25559,7 @@ planet "Bright Echo"
 	outfitter "Coalition Basics"
 
 planet "Buccaneer Bay"
-	attributes pirate "core pirate" core frontier
+	attributes pirate "core pirate" core tourism
 	landscape land/beach0
 	description `Pirates who have struck it rich dream of retiring on Buccaneer Bay. It is a warm ocean planet, with many places reminiscent of the islands in the ancient Caribbean where humanity's first pirate fleets sailed.`
 	description `	Many of the inhabitants are in fact not pirates, but their descendants, and these children and grand-children of anarchist outlaws have built a system of regional government that oversees hospitals, schools, and other public services, all created without funding from the Republic or taxes paid to it. The planet even sports its own shipyard, although many of the ships built here are, not surprisingly, based on designs pirated from the Syndicate and Republic shipyards.`
@@ -25648,7 +25792,7 @@ planet "Corral of Meblumem"
 	"required reputation" 15
 
 planet Covert
-	attributes pirate mining "core pirate" core frontier
+	attributes pirate mining "core pirate" core frontier factory
 	landscape land/badlands2
 	description `Covert is home to a powerful mining cartel, operating outside the control of Republic law or any other external authority. It is rumored to be one of the few planets in human space where weapons-grade uranium and plutonium is mined and enriched. Any goods for sale here were most likely produced by slave labor, often by survivors of ships that have been captured by pirates. A massive pirate fleet is docked on the outskirts of the spaceport, a warning to any private pilot who might think of cheating or opposing the cartel.`
 	spaceport `From the moment you landed, you have been followed by a pair of security guards with earpieces and laser guns. The spaceport is one enormous building, with square, straight hallways and featureless walls, and nearly every door you pass is locked. Cameras at each hallway intersection pivot to watch as you approach. This is simultaneously one of the most secure spaceports you have visited, and one of the most dangerous, although if you do not do anything to provoke the animosity of the cartel, you will probably be able to leave in peace.`
