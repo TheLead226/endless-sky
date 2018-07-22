@@ -3124,7 +3124,7 @@ fleet "Zenithites"
 		"Bounder"
 	variant 1
 		"Sparrow"
-		"Heavy Shuttle" (Armed)"
+		"Heavy Shuttle (Armed)"
 	variant 1
 		"Scout (Speedy)"
 	variant 3
@@ -3169,7 +3169,7 @@ fleet "East Mesans"
 		"Bounder"
 	variant 1
 		"Sparrow"
-		"Heavy Shuttle" (Armed)"
+		"Heavy Shuttle (Armed)"
 	variant 1
 		"Scout (Speedy)"
 	variant 3
@@ -3214,7 +3214,7 @@ fleet "West Mesans"
 		"Bounder"
 	variant 1
 		"Sparrow"
-		"Heavy Shuttle" (Armed)"
+		"Heavy Shuttle (Armed)"
 	variant 1
 		"Scout (Speedy)"
 	variant 3

@@ -1263,121 +1263,6 @@ mission "Escort (Extra Large, Southern, Dangerous Origin or Destination)"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 
-mission "Bounty Hunting (Big)"
-	name "Hunt down <npc>"
-	description "A pirate vessel named <npc> has been attacking merchants near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
-	repeat
-	job
-	to offer
-		"combat rating" > 500
-		random < 20
-	source
-		government Buccaneer Zenithite Privateer Mesans Cartel
-		attributes rim south north "dirt belt" core frontier
-	npc kill
-		government Bounty
-		personality heroic staying nemesis target
-		system
-			distance 1 2
-		fleet
-			names "pirate"
-			variant
-				"Leviathan"
-			variant
-				"Leviathan (Heavy)"
-			variant
-				"Leviathan (Laser)"
-			variant
-				"Falcon"
-			variant
-				"Falcon (Heavy)"
-			variant
-				"Falcon (Laser)"
-			variant
-				"Vanguard"
-			variant
-				"Vanguard (Particle)"
-		dialog "The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>."
-	on complete
-		payment 250000
-		dialog "The government of <planet> gratefully pays you <payment> for eliminating the <npc>."
-
-mission "Bounty Hunting (Medium)"
-	name "Hunt down <npc>"
-	description "A pirate vessel named <npc> has been attacking merchants near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
-	repeat
-	job
-	to offer
-		"combat rating" > 400
-		random < 20
-	source
-		government Buccaneer Zenithite Privateer Mesans Cartel
-		attributes rim south north "dirt belt" core frontier
-	npc kill
-		government Bounty
-		personality heroic staying nemesis target
-		system
-			distance 1 2
-		fleet
-			names "pirate"
-			variant
-				"Protector"
-			variant
-				"Protector (Laser)"
-			variant
-				"Osprey (Missile)"
-			variant
-				"Bastion (Heavy)"
-			variant
-				"Bastion (Laser)"
-			variant
-				"Firebird (Plasma)"
-		dialog "The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>."
-	on complete
-		payment 200000
-		dialog "The government of <planet> gratefully pays you <payment> for eliminating the <npc>."
-
-mission "Bounty Hunting (Small)"
-	name "Hunt down <npc>"
-	description "A pirate vessel named <npc> has been attacking merchants near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
-	repeat
-	job
-	to offer
-		"combat rating" > 300
-		random < 40
-	source
-		government Buccaneer Zenithite Privateer Mesans Cartel
-		attributes rim south north "dirt belt" core frontier
-	npc kill
-		government Bounty
-		personality heroic staying nemesis target
-		system
-			distance 1 2
-		fleet
-			names "pirate"
-			variant
-				"Firebird"
-			variant
-				"Firebird (Missile)"
-			variant
-				"Splinter"
-			variant
-				"Splinter (Laser)"
-			variant
-				"Osprey"
-			variant
-				"Osprey (Laser)"
-			variant
-				"Bastion"
-			variant
-				"Manta"
-			variant
-				"Manta (Proton)"
-		dialog "The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>."
-	on complete
-		payment 150000
-		dialog "The government of <planet> gratefully pays you <payment> for eliminating the <npc>."
-
 mission "Southern Pirate Attack"
 	name "Defend <planet>"
 	description "Defeat a pirate raid on <destination>."
@@ -1387,7 +1272,7 @@ mission "Southern Pirate Attack"
 		"combat rating" > 100
 		random < 10
 	source
-		not government "Pirate"
+		not government "Pirate" "Buccaneer" "Privateer"
 		attributes "frontier"
 		attributes "rim" "south" "dirt belt"
 	npc evade
@@ -1423,7 +1308,7 @@ mission "Northern Pirate Attack"
 		"combat rating" > 100
 		random < 10
 	source
-		not government "Pirate"
+		not government "Privateer" "Mesans" "Zenithite"
 		attributes "frontier"
 		attributes "north" "paradise" "deep"
 	npc evade
@@ -1459,7 +1344,7 @@ mission "Core Pirate Attack"
 		"combat rating" > 100
 		random < 10
 	source
-		not government "Pirate"
+		not government "Buccaneer" "Cartel"
 		attributes "frontier"
 		attributes "core" "near earth"
 	npc evade
